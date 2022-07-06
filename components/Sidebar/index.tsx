@@ -53,7 +53,7 @@ const Sidebar = () => {
 
           {!user && (
             <div className='px-2 py-4 hidden xl:block'>
-              <p className='text-gray-400 text-xs'>
+              <p className='text-gray-400 text-xs font-medium'>
                 Log in to like and comment on videos.
               </p>
 
